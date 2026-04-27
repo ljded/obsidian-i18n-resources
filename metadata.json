@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "HyxRM65oTsKh7qlKS6U7-Z9WS5tXwdh-",
+        "plugin": "drawio-obsidian",
+        "language": "zh-cn",
+        "version": "1.5.4",
+        "supported_versions": "1.5.4",
+        "title": "Diagrams",
+        "description": "对设置界面和菜单进行了汉化",
+        "hash": "5a3e6ee25a3e6ee25a3e6ee25a3e6ee2",
+        "created_at": "2026-04-27T04:38:20.066Z",
+        "updated_at": "2026-04-27T04:38:20.066Z",
+        "type": "plugin"
+    }
+]
