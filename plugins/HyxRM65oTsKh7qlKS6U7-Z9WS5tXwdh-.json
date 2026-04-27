@@ -1,0 +1,282 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "drawio-obsidian",
+        "version": "1.0.0",
+        "title": "Diagrams",
+        "description": "Diagrams Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.4",
+        "author": "龙剑de刀"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n    <div>\n      Thanks for installing the diagrams plugin. Before we get started...\n    </div>\n    <div class=\"setting-item\" style=\"display:block\">\n      <div class=\"setting-item-description\">\n        As an alternative to the normal Diagrams.net (Draw.io) interface you may want to use \"sketch\" mode for your notes.\n        Sketch mode has a simpler interface and hand-draw diagram style.\n      </div>\n      <div style=\"display:flex;justify-content:space-around;padding-top:1em;padding-bottom:1em;\">\n        <div style=\"text-align:center;\">\n          <div class=\"setting-item-heading\">Sketch</div>\n          <div><button id=\"UseSketchStyle\" class=\"mod-cta\">Use Sketch As Default</button></div>\n        </div>\n        <div style=\"text-align:center;\">\n          <div class=\"setting-item-heading\">Full</div>\n          <div><button id=\"UseFullStyle\" class=\"mod-cta\">Use Full As Default</button></div>\n        </div>\n      </div>\n      <div class=\"setting-item-description\">\n        You can change this setting at any time by going to <b>Settings</b> &gt; <b>Diagrams</b>.\n      </div>\n    </div>\n    <div>\n      If you find any issues or have feature requests, please add them to the \n      <a href=\"https://github.com/zapthedingbat/drawio-obsidian/issues\" target=\"_blank\">GitHub</a> repository.\n      Pull requests or any other contributions are very welcome!\n    </div>\n    ",
+                    "target": "\n    <div>\n      Thanks for installing the diagrams plugin. Before we get started...\n    </div>\n    <div class=\"setting-item\" style=\"display:block\">\n      <div class=\"setting-item-description\">\n        As an alternative to the normal Diagrams.net (Draw.io) interface you may want to use \"sketch\" mode for your notes.\n        Sketch mode has a simpler interface and hand-draw diagram style.\n      </div>\n      <div style=\"display:flex;justify-content:space-around;padding-top:1em;padding-bottom:1em;\">\n        <div style=\"text-align:center;\">\n          <div class=\"setting-item-heading\">Sketch</div>\n          <div><button id=\"UseSketchStyle\" class=\"mod-cta\">Use Sketch As Default</button></div>\n        </div>\n        <div style=\"text-align:center;\">\n          <div class=\"setting-item-heading\">Full</div>\n          <div><button id=\"UseFullStyle\" class=\"mod-cta\">Use Full As Default</button></div>\n        </div>\n      </div>\n      <div class=\"setting-item-description\">\n        You can change this setting at any time by going to <b>Settings</b> &gt; <b>Diagrams</b>.\n      </div>\n    </div>\n    <div>\n      If you find any issues or have feature requests, please add them to the \n      <a href=\"https://github.com/zapthedingbat/drawio-obsidian/issues\" target=\"_blank\">GitHub</a> repository.\n      Pull requests or any other contributions are very welcome!\n    </div>\n    "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Set message",
+                    "target": "Set message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Set loading",
+                    "target": "Set loading"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Set hiding",
+                    "target": "Set hiding"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interface theme",
+                    "target": "界面主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use dark mode",
+                    "target": "使用深色模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use sketch style drawing",
+                    "target": "使用素描风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add paths to CSS snippets within the Vault, one by line. The snippets are used to modify the style of the diagram editor.",
+                    "target": "逐行将CSS片段的路径添加到Vault内。这些用于修改编辑器的风格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Theme",
+                    "target": "主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dark",
+                    "target": "深色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sketch",
+                    "target": "素描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CSS snippets",
+                    "target": "CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Export as png",
+                    "target": "以 png 格式导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Insert new diagram",
+                    "target": "插入新图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit diagram",
+                    "target": "编辑图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New diagram",
+                    "target": "新图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "automatic",
+                    "source": "Automatic",
+                    "target": "自动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "dark",
+                    "source": "Dark",
+                    "target": "深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "light",
+                    "source": "Light",
+                    "target": "浅色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create a new diagram",
+                    "target": "创建一个新图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Full",
+                    "target": "完整"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Compact",
+                    "target": "紧凑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Sketch",
+                    "target": "素描"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setTitle(\"Export as png\")",
+                    "target": "setTitle(\"Export as png\")"
+                },
+                {
+                    "source": "error(\"mxCodec.getConstructor: \"+a+\" not allowed in mxCodec.allowlist\")",
+                    "target": "error(\"mxCodec.getConstructor: \"+a+\" not allowed in mxCodec.allowlist\")"
+                },
+                {
+                    "source": "log(\"error in getStencil:\",a,e,b,g,h)}}mxStencilRegistry.packages[e]=1}}else e=e.replace(\"_-_\",\"_\")",
+                    "target": "log(\"error in getStencil:\",a,e,b,g,h)}}mxStencilRegistry.packages[e]=1}}else e=e.replace(\"_-_\",\"_\")"
+                },
+                {
+                    "source": "log(\"Error in library dialog: \"+ba)}O||(b.spinner.stop(),b.handleError({message:mxResources.get(\"errorLoadingFile\")",
+                    "target": "log(\"Error in library dialog: \"+ba)}O||(b.spinner.stop(),b.handleError({message:mxResources.get(\"errorLoadingFile\")"
+                },
+                {
+                    "source": "log(\"ExtFonts format error: \"+N.message)}else null!=this.graph.extFonts&&0<this.graph.extFonts.length&&(this.graph.extFonts=[])}b.apply(this,arguments)}else throw{message:mxResources.get(\"notADiagramFile\")",
+                    "target": "log(\"ExtFonts format error: \"+N.message)}else null!=this.graph.extFonts&&0<this.graph.extFonts.length&&(this.graph.extFonts=[])}b.apply(this,arguments)}else throw{message:mxResources.get(\"notADiagramFile\")"
+                },
+                {
+                    "source": "log(\"Error in style for \"+E.id+\": \"+K)}try{var R=c.getAttribute(\"icon\")",
+                    "target": "log(\"Error in style for \"+E.id+\": \"+K)}try{var R=c.getAttribute(\"icon\")"
+                },
+                {
+                    "source": "log(\"Error in icon for \"+E.id+\": \"+K)}try{var O=c.getAttribute(\"geometry\")",
+                    "target": "log(\"Error in icon for \"+E.id+\": \"+K)}try{var O=c.getAttribute(\"geometry\")"
+                },
+                {
+                    "source": "log(\"Error in icon for \"+E.id+\": \"+K)}}}else if(\"model\"==c.nodeName){for(var u=c.firstChild;null!=u&&u.nodeType!=mxConstants.NODETYPE_ELEMENT;)u=u.nextSibling;null!=u&&(new mxCodec(c.firstChild)).decode(u,z)}else if(\"view\"==c.nodeName){if(c.hasAttribute(\"scale\")",
+                    "target": "log(\"Error in icon for \"+E.id+\": \"+K)}}}else if(\"model\"==c.nodeName){for(var u=c.firstChild;null!=u&&u.nodeType!=mxConstants.NODETYPE_ELEMENT;)u=u.nextSibling;null!=u&&(new mxCodec(c.firstChild)).decode(u,z)}else if(\"view\"==c.nodeName){if(c.hasAttribute(\"scale\")"
+                },
+                {
+                    "source": "error(\"EditorUi.handleError:\",c):EditorUi.logError(\"Caught: \"+(\"\"==c.message&&null!=c.name)?c.name:c.message,c.filename,c.lineNumber,c.columnNumber,c,\"INFO\")",
+                    "target": "error(\"EditorUi.handleError:\",c):EditorUi.logError(\"Caught: \"+(\"\"==c.message&&null!=c.name)?c.name:c.message,c.filename,c.lineNumber,c.columnNumber,c,\"INFO\")"
+                },
+                {
+                    "source": "error(\"Message:\",H,\"\\\\nURL:\",c,\"\\\\nLine:\",f,\"\\\\nColumn:\",n,\"\\\\nError:\",q);window.setTimeout(function(){alert(\"Error: \"+(null!=H?H:\"\")",
+                    "target": "error(\"Message:\",H,\"\\\\nURL:\",c,\"\\\\nLine:\",f,\"\\\\nColumn:\",n,\"\\\\nError:\",q);window.setTimeout(function(){alert(\"Error: \"+(null!=H?H:\"\")"
+                },
+                {
+                    "source": "log(\"Change bootstrap script MD5 in the previous line:\",CryptoJS.MD5(v).toString()),alert(\"[Dev] Bootstrap script change requires update of CSP\")",
+                    "target": "log(\"Change bootstrap script MD5 in the previous line:\",CryptoJS.MD5(v).toString()),alert(\"[Dev] Bootstrap script change requires update of CSP\")"
+                },
+                {
+                    "source": "log(\"Change main script MD5 in the previous line:\",CryptoJS.MD5(v).toString()),alert(\"[Dev] Main script change requires update of CSP\")",
+                    "target": "log(\"Change main script MD5 in the previous line:\",CryptoJS.MD5(v).toString()),alert(\"[Dev] Main script change requires update of CSP\")"
+                },
+                {
+                    "source": "log(\"error in loadFile:\",b,c);var f=mxUtils.bind(this,function(){var n=this.getCurrentFile();null==n?(window.location.hash=\"\",this.showSplash()):window.location.hash=\"#\"+n.getHash()});null==c||\"AbortError\"!=c.name?this.handleError(c,null!=c?mxResources.get(\"errorLoadingFile\")",
+                    "target": "log(\"error in loadFile:\",b,c);var f=mxUtils.bind(this,function(){var n=this.getCurrentFile();null==n?(window.location.hash=\"\",this.showSplash()):window.location.hash=\"#\"+n.getHash()});null==c||\"AbortError\"!=c.name?this.handleError(c,null!=c?mxResources.get(\"errorLoadingFile\")"
+                },
+                {
+                    "source": "log(\"xml\",u));var m=mxUtils.parseXml(u),x=d.getPagesForNode(m.documentElement,\"mxGraphModel\")",
+                    "target": "log(\"xml\",u));var m=mxUtils.parseXml(u),x=d.getPagesForNode(m.documentElement,\"mxGraphModel\")"
+                },
+                {
+                    "source": "log(\"Local File\",[p],\"modified\",p.isModified(),\"checksum\",K);console.log(\"Remote File\",[u],\"rev\",M==m,\"desc\",I==x,\"checksum\",x);d.alert(\"Checksums \"+(x==K?\"match\":\"no not match\")",
+                    "target": "log(\"Local File\",[p],\"modified\",p.isModified(),\"checksum\",K);console.log(\"Remote File\",[u],\"rev\",M==m,\"desc\",I==x,\"checksum\",x);d.alert(\"Checksums \"+(x==K?\"match\":\"no not match\")"
+                },
+                {
+                    "source": "log(\"Error getLatestVersion\",u);d.handleError(u)}):console.log(\"Checksum: no file or pages\")",
+                    "target": "log(\"Error getLatestVersion\",u);d.handleError(u)}):console.log(\"Checksum: no file or pages\")"
+                },
+                {
+                    "source": "log(\"ExtFonts format error: \"+D.message)}return{gridEnabled:\"0\"!=b.getAttribute(\"grid\")",
+                    "target": "log(\"ExtFonts format error: \"+D.message)}return{gridEnabled:\"0\"!=b.getAttribute(\"grid\")"
+                },
+                {
+                    "source": "log(\"Set message\",e),this},show:function(){return console.log(\"Set loading\")",
+                    "target": "log(\"Set message\",e),this},show:function(){return console.log(\"Set loading\")"
+                },
+                {
+                    "source": "log(\"Set hiding\")",
+                    "target": "log(\"Set hiding\")"
+                },
+                {
+                    "source": "setDesc(\"Interface theme\")",
+                    "target": "setDesc(\"Interface theme\")"
+                },
+                {
+                    "source": "setDesc(\"Use dark mode\")",
+                    "target": "setDesc(\"Use dark mode\")"
+                },
+                {
+                    "source": "setDesc(\"Use sketch style drawing\")",
+                    "target": "setDesc(\"Use sketch style drawing\")"
+                },
+                {
+                    "source": "setName(\"CSS snippets\")",
+                    "target": "setName(\"CSS snippets\")"
+                },
+                {
+                    "source": "setDesc(\"Add paths to CSS snippets within the Vault, one by line. The snippets are used to modify the style of the diagram editor.\")",
+                    "target": "setDesc(\"Add paths to CSS snippets within the Vault, one by line. The snippets are used to modify the style of the diagram editor.\")"
+                },
+                {
+                    "source": "setTitle(\"Insert new diagram\")",
+                    "target": "setTitle(\"Insert new diagram\")"
+                },
+                {
+                    "source": "setTitle(\"Edit diagram\")",
+                    "target": "setTitle(\"Edit diagram\")"
+                },
+                {
+                    "source": "setTitle(\"New diagram\")",
+                    "target": "setTitle(\"New diagram\")"
+                },
+                {
+                    "source": "page: \"{1}\"",
+                    "target": "page: \"{1}\""
+                },
+                {
+                    "source": "text=\"The system shall do\"",
+                    "target": "text=\"The system shall do\""
+                },
+                {
+                    "source": "description:\"Library (.drawiolib, .xml)\"",
+                    "target": "description:\"Library (.drawiolib, .xml)\""
+                },
+                {
+                    "source": "name:\"Create a new diagram\"",
+                    "target": "name:\"Create a new diagram\""
+                }
+            ]
+        }
+    }
+}
