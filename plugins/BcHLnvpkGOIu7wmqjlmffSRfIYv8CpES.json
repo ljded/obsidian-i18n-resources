@@ -1,0 +1,162 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "url-into-selection",
+        "version": "1.0.0",
+        "title": "Paste URL into selection",
+        "description": "Paste URL into selection Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.11.4",
+        "author": "龙剑de刀"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "![selection](url) will be used for URL that matches the following list.",
+                    "target": "![selection](url) 将被匹配列表中的网址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Rules are regex-based, split by line break.",
+                    "target": "基于正则表达式,多个使用换行符分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "empty clipboardData in ClipboardEvent",
+                    "target": "剪贴板为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading url-into-selection",
+                    "target": "将网址加载到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading url-into-selection",
+                    "target": "卸载 url-into-selection"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Regular expression used to match URLs when default match fails.",
+                    "target": "默认匹配失败时的备用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Auto Select: Automatically select word surrounding the cursor.",
+                    "target": "自动选择: 自动选择光标周围的字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback Regular expression",
+                    "target": "备用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Behavior on pasting URL when nothing is selected",
+                    "target": "未选择内容时的默认操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Whitelist for image embed syntax",
+                    "target": "图像嵌入语法白名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter regular expression here..",
+                    "target": "请再此输入正则表达式.."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example:\nyoutu.?be|vimeo",
+                    "target": "示例:\nyoutu.?be|vimeo"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid regex pattern in settings, using fallback:",
+                    "target": "设置中的正则表达式无效,使用备用方案:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid image embed regex pattern:",
+                    "target": "无效的图像正则表达式:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "URL-into-selection Settings",
+                    "target": "URL-into-selection 设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"empty clipboardData in ClipboardEvent\")",
+                    "target": "error(\"empty clipboardData in ClipboardEvent\")"
+                },
+                {
+                    "source": "setName(\"Fallback Regular expression\")",
+                    "target": "setName(\"Fallback Regular expression\")"
+                },
+                {
+                    "source": "setDesc(\"Regular expression used to match URLs when default match fails.\")",
+                    "target": "setDesc(\"Regular expression used to match URLs when default match fails.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter regular expression here..\")",
+                    "target": "setPlaceholder(\"Enter regular expression here..\")"
+                },
+                {
+                    "source": "setName(\"Behavior on pasting URL when nothing is selected\")",
+                    "target": "setName(\"Behavior on pasting URL when nothing is selected\")"
+                },
+                {
+                    "source": "setDesc(\"Auto Select: Automatically select word surrounding the cursor.\")",
+                    "target": "setDesc(\"Auto Select: Automatically select word surrounding the cursor.\")"
+                },
+                {
+                    "source": "setName(\"Whitelist for image embed syntax\")",
+                    "target": "setName(\"Whitelist for image embed syntax\")"
+                },
+                {
+                    "source": "appendText(\"![selection](url) will be used for URL that matches the following list.\")",
+                    "target": "appendText(\"![selection](url) will be used for URL that matches the following list.\")"
+                },
+                {
+                    "source": "appendText(\"Rules are regex-based, split by line break.\")",
+                    "target": "appendText(\"Rules are regex-based, split by line break.\")"
+                },
+                {
+                    "source": "setPlaceholder(`Example:\nyoutu.?be|vimeo`)",
+                    "target": "setPlaceholder(`Example:\nyoutu.?be|vimeo`)"
+                },
+                {
+                    "source": "log(\"loading url-into-selection\")",
+                    "target": "log(\"loading url-into-selection\")"
+                },
+                {
+                    "source": "log(\"unloading url-into-selection\")",
+                    "target": "log(\"unloading url-into-selection\")"
+                },
+                {
+                    "source": "text:\"URL-into-selection Settings\"",
+                    "target": "text:\"URL-into-selection Settings\""
+                }
+            ]
+        }
+    }
+}
