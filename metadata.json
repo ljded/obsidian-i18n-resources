@@ -24,5 +24,18 @@
         "created_at": "2026-04-27T05:27:10.388Z",
         "updated_at": "2026-06-25T07:16:04.357Z",
         "type": "plugin"
+    },
+    {
+        "id": "b6Xx6oqScNS9CU4ax4Y3-G8izGh9p5n6",
+        "plugin": "table-editor-obsidian",
+        "language": "zh-cn",
+        "version": "0.23.2",
+        "supported_versions": "0.23.2",
+        "title": "Advanced Tables",
+        "description": "Advanced Tables Localization & Tweaks",
+        "hash": "05569fd605569fd605569fd605569fd6",
+        "created_at": "2026-06-25T07:25:12.739Z",
+        "updated_at": "2026-06-25T07:25:12.739Z",
+        "type": "plugin"
     }
 ]
