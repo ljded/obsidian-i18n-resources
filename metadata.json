@@ -76,5 +76,18 @@
         "created_at": "2026-06-25T07:38:43.555Z",
         "updated_at": "2026-06-25T07:38:43.555Z",
         "type": "plugin"
+    },
+    {
+        "id": "hvfCH6CGhaPQ_ch2aoovJ7BoKp1OkwwE",
+        "plugin": "file-explorer-note-count",
+        "language": "zh-cn",
+        "version": "1.2.4",
+        "supported_versions": "1.2.4",
+        "title": "File Explorer Note Count",
+        "description": "File Explorer Note Count Localization & Tweaks",
+        "hash": "33481032334810323348103233481032",
+        "created_at": "2026-06-25T07:39:59.656Z",
+        "updated_at": "2026-06-25T07:39:59.656Z",
+        "type": "plugin"
     }
 ]
