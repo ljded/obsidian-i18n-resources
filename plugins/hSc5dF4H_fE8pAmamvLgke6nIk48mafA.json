@@ -1,0 +1,2828 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "breadcrumbs",
+        "version": "1.0.0",
+        "title": "Breadcrumbs",
+        "description": "Breadcrumbs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.14.2",
+        "author": "龙剑de刀"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "sunday",
+                    "target": "周日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Sunday (US)",
+                    "target": "周日 (美国)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "monday",
+                    "target": "周一"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Monday (ISO)",
+                    "target": "周一 (ISO)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Date notes are already configured. This may overwrite your current settings.",
+                    "target": "日期备注已配置，可能覆盖当前设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " matching the note filename. Default: ",
+                    "target": " 匹配笔记文件名。默认："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to use",
+                    "target": " 使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bulk-add transitive rule errors >",
+                    "target": "批量添加传递规则错误 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BreadcrumbsSettingTab.unmount threw >",
+                    "target": "BreadcrumbsSettingTab.unmount 抛出 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BreadcrumbsSettingTab.display threw >",
+                    "target": "BreadcrumbsSettingTab.display 抛出 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating codeblock tree",
+                    "target": "更新代码块树错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating mermaid graph",
+                    "target": "生成mermaid图形错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Codeblock > parse_source > ",
+                    "target": "代码块>解析源>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CodeblockMDRC.update error >",
+                    "target": "CodeblockMDRC.update错误>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CodeblockMDRC unknown type",
+                    "target": "CodeblockMDRC未知类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "thread > create file error",
+                    "target": "线程>创建文件错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "metadataTypeManager.setType error >",
+                    "target": "metadataTypeManager.setType错误>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No markdown views found",
+                    "target": "redraw_page_views>未找到markdown视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No view_parent (mode=preview)",
+                    "target": "redraw_page_views>无view_parent (模式=预览)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No cm-scroller (mode=source)",
+                    "target": "redraw_page_views>无cm-scroller (模式=源)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No parent of cm-scroller",
+                    "target": "redraw_page_views > 没有cm-scroller的父元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "thread > template_data",
+                    "target": "thread > template_data"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set up",
+                    "target": "设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set up...",
+                    "target": "设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Build & copy to clipboard",
+                    "target": "构建并复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to display note links",
+                    "target": "如何显示笔记链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Link daily notes sequentially and to their parent period notes",
+                    "target": "顺序链接每日笔记及其父周期笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use next_week/prev_week, next_month/prev_month, etc. instead of generic next/prev. Fields are created automatically.",
+                    "target": "使用next_week/prev_week等而非通用next/prev，字段自动创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Monday uses ISO week numbering. Sunday shifts Sundays into the following week so they match US-style week files.",
+                    "target": "周一ISO周编号，周日移至下周以匹配美式周文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable date notes with period hierarchy and transitive rules",
+                    "target": "启用带层级与传递规则的日期备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Monday uses ISO week numbering. Sunday shifts Sundays into the following week to match US-style week files.",
+                    "target": "周一ISO周编号，周日移至下周匹配美式周文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the previous/next view at the top of the page",
+                    "target": "页面顶部显示上/下视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note display options",
+                    "target": "笔记显示选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily notes",
+                    "target": "每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enabled",
+                    "target": "已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Period notes",
+                    "target": "周期笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Field names",
+                    "target": "字段名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Period-specific fields",
+                    "target": "特定周期字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Week",
+                    "target": "周"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Week starts on",
+                    "target": "周起始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick setup",
+                    "target": "快速设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable previous/next view",
+                    "target": "启用前后视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Period rows",
+                    "target": "周期行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "General",
+                    "target": "通用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trail",
+                    "target": "跟踪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Breadcrumbs settings failed to load",
+                    "target": "面包屑设置加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Implied relations",
+                    "target": "隐式关系"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Edge sources",
+                    "target": "边缘源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Views",
+                    "target": "视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commands",
+                    "target": "命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Suggestors",
+                    "target": "建议器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "No groups available",
+                    "target": "无可用分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove from Group",
+                    "target": "从分组移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove Field",
+                    "target": "移除字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove",
+                    "target": "移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Freeze implied edges in folder",
+                    "target": "冻结隐含边"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Folder path",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "File extension",
+                    "target": "文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Alias (first alias, if available)",
+                    "target": "别名（首个）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "警告：KaTeX在怪异模式下不工作。请确保网站有合适doctype。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`WebAssembly.instantiateStreaming` failed because your server does not serve Wasm with `application/wasm` MIME type. Falling back to `WebAssembly.instantiate` which is slower. Original error:\n",
+                    "target": "`WebAssembly.instantiateStreaming` 失败，因为服务器未提供 `application/wasm` MIME类型。回退到较慢的 `WebAssembly.instantiate`。原始错误：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "using deprecated parameters for the initialization function; pass a single object instead",
+                    "target": "初始化函数使用了已弃用的参数；请传递单个对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dataview-note > DV API error:",
+                    "target": "dataview-note > DV API错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] derived_inert\n%cReading a derived belonging to a now-destroyed effect may result in stale values\nhttps://svelte.dev/e/derived_inert",
+                    "target": "%c[svelte] derived_inert\n%cReading a derived belonging to a now-destroyed effect may result in stale values\nhttps://svelte.dev/e/derived_inert"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] select_multiple_invalid_value\n%cThe `value` property of a `<select multiple>` element should be an array, but it received a non-array value. The selection will be kept as is.\nhttps://svelte.dev/e/select_multiple_invalid_value",
+                    "target": "%c[svelte] select_multiple_invalid_value\n%cThe `value` property of a `<select multiple>` element should be an array, but it received a non-array value. The selection will be kept as is.\nhttps://svelte.dev/e/select_multiple_invalid_value"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA `<svelte:boundary>` `reset` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%cA `<svelte:boundary>` `reset` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "non-fatal codeblock errors",
+                    "target": "非致命代码块错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "explicit_edge_errors >",
+                    "target": "显式边缘错误 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "activate_view > no leaf found",
+                    "target": "激活视图 > 未找到叶节点"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard and logged to console.",
+                    "target": "已复制到剪贴板并记入控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field label cannot be empty.",
+                    "target": "字段标签不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field label must be unique.",
+                    "target": "字段标签必须唯一"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Closing field cannot be empty.",
+                    "target": "关闭字段不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find textarea.",
+                    "target": "找不到文本框"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No rules to parse.",
+                    "target": "没有规则可解析"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Some rules could not be parsed. Ensure you're using the correct syntax of `[field-one, field-two] -> close-field`, with each rule of a new line.",
+                    "target": "部分规则无法解析。请确保使用正确语法：`[field-one, field-two] -> close-field`，每条规则占一行"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Some rules could not be parsed. Check the logs for more information.",
+                    "target": "部分规则解析失败，请查看日志"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Date notes configured",
+                    "target": "日期笔记已配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Date format cannot be empty",
+                    "target": "日期格式不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Delimiter cannot be empty",
+                    "target": "分隔符不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please restart Obsidian for the changes to take effect",
+                    "target": "请重启 Obsidian 使更改生效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Trigger string cannot be empty",
+                    "target": "触发字符串不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Depth must be a number",
+                    "target": "深度必须为数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Depth must be a non-negative number",
+                    "target": "深度必须为非负数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Breadcrumbs: failed to render settings tab. See developer console and report at https://github.com/michaelpporter/breadcrumbs/issues",
+                    "target": "Breadcrumbs: 设置标签页渲染失败。请查看开发者控制台并报告至 https://github.com/michaelpporter/breadcrumbs/issues"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Freezing implied edges in the selected folder.",
+                    "target": "正在冻结选定文件夹中的隐含边"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished freezing implied edges in folder.",
+                    "target": "已冻结文件夹中的隐式边"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "List index copied to clipboard",
+                    "target": "列表索引已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No list items to copy",
+                    "target": "无列表项可复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown view",
+                    "target": "无活动Markdown视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "无活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Graph stats printed to console and copied to clipboard",
+                    "target": "图统计已输出到控制台并复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Implied edges frozen to note",
+                    "target": "隐式边已冻结到笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Command cancelled",
+                    "target": "命令已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Freezing implied edges to all notes in vault...",
+                    "target": "正在冻结仓库中所有笔记的隐式边..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rebuilding graph",
+                    "target": "正在重建图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "flex items-center gap-1.5 grow",
+                    "target": "flex items-center gap-1.5 grow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "BC-page-views w-full mx-auto",
+                    "target": "BC-page-views w-full mx-auto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "text-xl p-1 tree-item-self is-clickable",
+                    "target": "text-xl p-1 tree-item-self is-clickable"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-children pl-4",
+                    "target": "tree-item-children pl-4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for date notes to use as edge sources",
+                    "target": "查找日期笔记作为边源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field used to join date notes together. Breadcrumbs takes the current note's date, adds one day, and joins the two notes with this field.",
+                    "target": "连接日期笔记的字段。Breadcrumbs将当前日期加一天后连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If there is a gap from one day to another, should the next note be the unresolved one in one day or should it 'stretch' to the next resolved (existing) note?",
+                    "target": "日期间隔：下条笔记取当天未解决还是延伸至下一个？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the level of debug logging",
+                    "target": "设置调试日志级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for dendron notes to use as edge sources",
+                    "target": "查找Dendron笔记作为边源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Character that splits the note basename into a Dendron-style hierarchy (for example - in git-pull vs . in git.pull). It must match what you actually use in filenames; the wrong delimiter means no Dendron edges are built.",
+                    "target": "笔记基名分割字符（如 - 或 .）。需与实际文件名一致，否则无Dendron边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-dendron-note-field is not specified",
+                    "target": "未指定BC-dendron-note-field时的默认字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use for sibling edges between notes at the same level in the hierarchy. Leave empty to disable.",
+                    "target": "同级笔记间兄弟边字段，留空禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display Dendron note names as the right-most split of the delimiter. e.g. `a.b.c` -> `c`",
+                    "target": "显示笔记名最右部分，如`a.b.c`->`c`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether to enable the edge field suggestor",
+                    "target": "启用边字段建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The string that triggers the suggestor (when entered at the start of a line)",
+                    "target": "触发建议器字符串（行首）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Where to write the frozen edges to",
+                    "target": "冻结边写入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Freeze implied edges using the first alias of the target node.",
+                    "target": "用目标节点首个别名冻结隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show the trail view at the top of the page",
+                    "target": "页面顶部显示轨迹视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format of the trail view",
+                    "target": "轨迹视图格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How to select the path(s) to display in the trail view",
+                    "target": "轨迹视图路径选择方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Default depth of the trail view",
+                    "target": "路径视图默认深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Merge fields in the traversal, instead of keeping their paths separate",
+                    "target": "合并遍历中的字段，而非保持路径独立"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show controls to change the depth/format/path-selection of the trail view",
+                    "target": "显示控件以更改路径视图的深度/格式/路径选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Message to display when there is no path to display. Leave blank to hide the trail view when there is no path.",
+                    "target": "无路径时显示的消息。留空则在无路径时隐藏路径视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for Johnny.Decimal notes to use as edge sources",
+                    "target": "查找 Johnny.Decimal 笔记作为边源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Delimiter to use to split the note name",
+                    "target": "用于拆分笔记名称的分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use to point to next note in the Johnny.Decimal system",
+                    "target": "用于指向 Johnny.Decimal 中下一个笔记的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format to use for links",
+                    "target": "链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Indentation to use for each level",
+                    "target": "每级缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use to join neighbouring list items.",
+                    "target": "用于连接相邻列表项的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Collapse the matrix by default",
+                    "target": "默认折叠矩阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort matrix edge fields by a custom label order.",
+                    "target": "按自定义标签顺序排序矩阵边字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lock the matrix view to the current file",
+                    "target": "将矩阵视图锁定到当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path to lock the matrix view to (overrides current file)",
+                    "target": "锁定矩阵视图的路径（覆盖当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Keep the page views pinned to the top of the note as you scroll",
+                    "target": "滚动时将页面视图固定在笔记顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show a notification when the graph is rebuilt",
+                    "target": "重建图时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When to rebuild the graph",
+                    "target": "何时重建图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-regex-note-field is not specified",
+                    "target": "未指定BC-regex-note-field时使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-tag-note-field is not specified",
+                    "target": "未指定BC-tag-note-field时使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use for sibling edges between notes sharing the same tag. Leave empty to disable. Can be overridden per note with BC-tag-note-sibling-field.",
+                    "target": "用于共享同一标签的笔记之间的兄弟边字段。留空禁用。可通过BC-tag-note-sibling-field按笔记覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Where to write the new edge to",
+                    "target": "新边写入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The template to use for the target path. You don't need to add the .md extension.",
+                    "target": "目标路径模板。无需添加.md扩展名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use when BC-traverse-note-field is not specified in the note",
+                    "target": "未指定BC-traverse-note-field时使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Collapse the tree by default",
+                    "target": "默认折叠树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Walk up the hierarchy to find the root note, then display the tree from there. When off, the tree starts from the current file.",
+                    "target": "向上查找根笔记并显示树。关闭时从当前文件开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Default depth of the tree view",
+                    "target": "树视图默认深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lock the tree view to the current file",
+                    "target": "锁定树视图到当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path to lock the tree view to (overrides current file)",
+                    "target": "锁定树视图路径（覆盖当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line.",
+                    "target": "以显示模式渲染数学，使用显示样式（如\\int和\\sum变大），居中独占一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines the markup language of the output.",
+                    "target": "确定输出的标记语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math in leqno style (left-justified tags).",
+                    "target": "显示公式leqno样式（左对齐标签）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math flush left.",
+                    "target": "显示公式左对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specifies a minimum thickness, in ems, for fraction lines, `\\sqrt` top lines, `{array}` vertical lines, `\\hline`, `\\hdashline`, `\\underline`, `\\overline`, and the borders of `\\fbox`, `\\boxed`, and `\\fcolorbox`.",
+                    "target": "Specifies a minimum thickness, in ems, for fraction lines, `\\sqrt` top lines, `{array}` vertical lines, `\\hline`, `\\hdashline`, `\\underline`, `\\overline`, and the borders of `\\fbox`, `\\boxed`, and `\\fcolorbox`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change.",
+                    "target": "使`\\color`行为类似LaTeX双参数`\\textcolor`，而非单参数`\\color`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+                    "target": "开启严格/LaTeX忠实模式，对不支持功能报错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trust the input, enabling all HTML features such as \\url.",
+                    "target": "Trust the input, enabling all HTML features such as \\url."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If non-zero, all user-specified sizes, e.g. in \\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large",
+                    "target": "If non-zero, all user-specified sizes, e.g. in \\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.",
+                    "target": "限制宏展开次数防止无限循环，设为Infinity则完全展开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Field groups to include when freezing edges.",
+                    "target": "冻结边时包含的字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the sorting method for the edges in the graph.",
+                    "target": "选择图中边的排序方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the edge attributes to show.",
+                    "target": "选择要显示的边属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use defined edge fields, then reorder with arrows or drag-and-drop.",
+                    "target": "使用已定义的边字段，通过箭头或拖放重新排序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the field groups to show in the left side of this view",
+                    "target": "选择此视图左侧显示的字段组。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the field groups to show in the right side of this view",
+                    "target": "选择此视图右侧显示的字段组。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which edge-type groups to follow when walking up to the root. Typically 'ups'.",
+                    "target": "向上遍历到根时遵循的边类型组。通常为'ups'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which edge-type groups this view follows. Include downs so the tree can traverse down (parent → child), including Dendron hubs to their children. With only ups, only up (child → parent) edges are used.",
+                    "target": "此视图遵循的边类型组。包括downs以便树可以向下遍历（父→子），包括Dendron hub到其子项。仅使用ups时，仅使用向上（子→父）边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Implied relations",
+                    "target": "隐含关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Edge sources",
+                    "target": "边来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Views",
+                    "target": "视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Commands",
+                    "target": "命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Suggestors",
+                    "target": "建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Debug",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "up",
+                    "target": "上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "down",
+                    "target": "下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "same",
+                    "target": "同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "next",
+                    "target": "下一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "prev",
+                    "target": "上一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ups",
+                    "target": "上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "downs",
+                    "target": "下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "sames",
+                    "target": "相同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "nexts",
+                    "target": "下一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "prevs",
+                    "target": "上一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת",
+                    "target": "字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר",
+                    "target": "数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך בוליאני",
+                    "target": "布尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "BigInt",
+                    "target": "大整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מערך",
+                    "target": "数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אובייקט",
+                    "target": "对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך ריק (null)",
+                    "target": "空值 (null)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא מוגדר (undefined)",
+                    "target": "未定义 (undefined)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "סימבול (Symbol)",
+                    "target": "符号 (Symbol)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "פונקציה",
+                    "target": "函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מפה (Map)",
+                    "target": "映射 (Map)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קבוצה (Set)",
+                    "target": "集合 (Set)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קובץ",
+                    "target": "文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Promise",
+                    "target": "Promise"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "NaN",
+                    "target": "NaN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא ידוע",
+                    "target": "未知值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך",
+                    "target": "值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קלט",
+                    "target": "输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת אימייל",
+                    "target": "邮箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת רשת",
+                    "target": "网址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אימוג'י",
+                    "target": "表情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "nanoid",
+                    "target": "nanoid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "cuid",
+                    "target": "cuid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "XID",
+                    "target": "XID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך וזמן ISO",
+                    "target": "ISO日期时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך ISO",
+                    "target": "ISO日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "זמן ISO",
+                    "target": "ISO时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "משך זמן ISO",
+                    "target": "ISO时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv4",
+                    "target": "IPv4地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv6",
+                    "target": "IPv6地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv4",
+                    "target": "IPv4范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv6",
+                    "target": "IPv6范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64",
+                    "target": "Base64字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64 לכתובות רשת",
+                    "target": "网络地址Base64字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת JSON",
+                    "target": "JSON字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר E.164",
+                    "target": "E.164号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "JWT",
+                    "target": "JWT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "dataview-note-query is not a string",
+                    "target": "dataview-note-query 不是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "dataview-note-field is not a string",
+                    "target": "dataview-note-field 不是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "dataview-notes are not implemented without Dataview enabled",
+                    "target": "未启用Dataview时无法使用dataview-notes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Tried to pop an empty stack",
+                    "target": "试图弹出空栈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "键同行出现意外的块序列缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid codeblock YAML. Check the console for more information (press `Ctrl + Shift + I` to open the console).",
+                    "target": "无效的代码块YAML。查看控制台获取更多信息（按`Ctrl+Shift+I`打开控制台）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "latin",
+                    "target": "拉丁"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cyrillic",
+                    "target": "西里尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "armenian",
+                    "target": "亚美尼亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "brahmic",
+                    "target": "brahmic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "georgian",
+                    "target": "georgian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cjk",
+                    "target": "cjk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hangul",
+                    "target": "hangul"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "check",
+                    "target": "check"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clipboard",
+                    "target": "clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "group",
+                    "target": "group"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "image",
+                    "target": "image"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "merge",
+                    "target": "merge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pencil",
+                    "target": "pencil"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "plus",
+                    "target": "加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "save",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "search",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "split",
+                    "target": "拆分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enabled",
+                    "target": "启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next field",
+                    "target": "下一字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Up field",
+                    "target": "上字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default field",
+                    "target": "默认字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stretch to existing",
+                    "target": "拉伸至现有"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug level",
+                    "target": "调试级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delimiter",
+                    "target": "分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default sibling field",
+                    "target": "默认同级字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display trimmed",
+                    "target": "显示修剪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trigger string",
+                    "target": "触发字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Destination",
+                    "target": "目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Included field groups",
+                    "target": "包含字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use alias",
+                    "target": "使用别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable trail view",
+                    "target": "启用轨迹视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format",
+                    "target": "格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path selection",
+                    "target": "路径选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default depth",
+                    "target": "默认深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge fields",
+                    "target": "合并字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show controls",
+                    "target": "显示控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No path message",
+                    "target": "无路径消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edge Sort",
+                    "target": "边排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Attributes",
+                    "target": "显示属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link kind",
+                    "target": "链接种类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indent",
+                    "target": "缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default neighbour field",
+                    "target": "默认相邻字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom Field Order",
+                    "target": "自定义字段顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collapse",
+                    "target": "折叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom field sorting",
+                    "target": "自定义字段排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock view",
+                    "target": "锁定视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock path",
+                    "target": "锁定路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sticky",
+                    "target": "粘性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field groups for left",
+                    "target": "左侧字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field groups for right",
+                    "target": "右侧字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notify on refresh",
+                    "target": "刷新通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Triggers",
+                    "target": "触发器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Target path template",
+                    "target": "目标路径模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Find root",
+                    "target": "查找根"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Find root field groups",
+                    "target": "查找根字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field groups",
+                    "target": "字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edge fields",
+                    "target": "边字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Transitive",
+                    "target": "传递性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag notes",
+                    "target": "标签备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List notes",
+                    "target": "列表备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date notes",
+                    "target": "日期备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Regex notes",
+                    "target": "正则笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dendron notes",
+                    "target": "Dendron笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Johnny.Decimal notes",
+                    "target": "Johnny.Decimal笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Traverse notes",
+                    "target": "遍历笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matrix",
+                    "target": "矩阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Page",
+                    "target": "页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tree",
+                    "target": "树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Codeblocks",
+                    "target": "代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rebuild graph",
+                    "target": "重建图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List index",
+                    "target": "列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Freeze implied edges",
+                    "target": "冻结隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thread",
+                    "target": "线程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edge field suggestor",
+                    "target": "边字段建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scope",
+                    "target": "作用域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xy",
+                    "target": "xy"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link Kind",
+                    "target": "链接类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create list index",
+                    "target": "创建列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show/copy graph stats",
+                    "target": "显示/复制图统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Freeze implied edges to note",
+                    "target": "冻结隐含边到笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Freeze implied edges to all notes in vault",
+                    "target": "冻结隐含边到库中所有笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle sticky page views",
+                    "target": "切换固定页面视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Add Field",
+                    "target": "添加字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "selection",
+                    "source": "all",
+                    "target": "全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: ",
+                    "target": "警告："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set up Date Notes",
+                    "target": "设置日期备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure date note edge sources and transitive hierarchy rules.",
+                    "target": "配置日期备注边源与传递层次规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Luxon format",
+                    "target": "Luxon格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Luxon date format",
+                    "target": "Luxon日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reload settings",
+                    "target": "重载设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Edge Fields",
+                    "target": "> 边字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Transitive",
+                    "target": "> 传递"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Tag Notes",
+                    "target": "> 标签备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> List Notes",
+                    "target": "> 列表备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Date Notes",
+                    "target": "> 日期备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Regex Notes",
+                    "target": "> 正则备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Dendron Notes",
+                    "target": "> Dendron备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Johnny.Decimal Notes",
+                    "target": "> Johnny.Decimal备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Traverse Notes",
+                    "target": "> 遍历备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Matrix",
+                    "target": "> 矩阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Page",
+                    "target": "> 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Tree",
+                    "target": "> 树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Codeblocks",
+                    "target": "> 代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Rebuild Graph",
+                    "target": "> 重建图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> List Index",
+                    "target": "> 列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Freeze Implied Edges",
+                    "target": "> 冻结隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Thread",
+                    "target": "> 线程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Edge Field Suggestor",
+                    "target": "> 边字段建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Debug",
+                    "target": "> 调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create list index",
+                    "target": "创建列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Jump to group. Right click to remove.",
+                    "target": "跳转到组。右键移除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Jump to field. Right click for more actions.",
+                    "target": "跳转到字段。右键更多操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Right click to remove",
+                    "target": "右键移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Right click for more actions.",
+                    "target": "右键更多操作。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Copied to clipboard and logged to console.\")",
+                    "target": "Notice(\"已复制到剪贴板并记录到控制台。\")"
+                },
+                {
+                    "source": "Notice(\"Field label cannot be empty.\")",
+                    "target": "Notice(\"字段标签不能为空。\")"
+                },
+                {
+                    "source": "Notice(\"Field label must be unique.\")",
+                    "target": "Notice(\"字段标签必须唯一。\")"
+                },
+                {
+                    "source": "setTitle(\"No groups available\")",
+                    "target": "setTitle(\"无可用组\")"
+                },
+                {
+                    "source": "setTitle(\"Remove from Group\")",
+                    "target": "setTitle(\"从组中移除\")"
+                },
+                {
+                    "source": "setTitle(\"Remove Field\")",
+                    "target": "setTitle(\"移除字段\")"
+                },
+                {
+                    "source": "Notice(\"Closing field cannot be empty.\")",
+                    "target": "Notice(\"关闭字段不能为空。\")"
+                },
+                {
+                    "source": "Notice(\"Could not find textarea.\")",
+                    "target": "Notice(\"找不到文本区域。\")"
+                },
+                {
+                    "source": "Notice(\"No rules to parse.\")",
+                    "target": "Notice(\"没有要解析的规则。\")"
+                },
+                {
+                    "source": "Notice(\"Some rules could not be parsed. Ensure you're using the correct syntax of `[field-one, field-two] -> close-field`, with each rule of a new line.\")",
+                    "target": "Notice(\"部分规则无法解析。请确保使用正确的语法：`[field-one, field-two] -> close-field`，每条规则各占一行。\")"
+                },
+                {
+                    "source": "error(\"Bulk-add transitive rule errors >\",Be.map(X=>X.success?null:X.error?.issues)),new Es.Notice(\"Some rules could not be parsed. Check the logs for more information.\")",
+                    "target": "error(\"批量添加传递性规则错误 >\",Be.map(X=>X.success?null:X.error?.issues)),new Es.Notice(\"一些规则无法解析。查看日志获取更多信息。\")"
+                },
+                {
+                    "source": "setName(\"Note display options\")",
+                    "target": "setName(\"笔记显示选项\")"
+                },
+                {
+                    "source": "setDesc(\"How to display note links\")",
+                    "target": "setDesc(\"如何显示笔记链接\")"
+                },
+                {
+                    "source": "setTooltip(\"Folder path\")",
+                    "target": "setTooltip(\"文件夹路径\")"
+                },
+                {
+                    "source": "setTooltip(\"File extension\")",
+                    "target": "setTooltip(\"文件扩展名\")"
+                },
+                {
+                    "source": "setTooltip(\"Alias (first alias, if available)\")",
+                    "target": "setTooltip(\"别名（首个别名，如果有）\")"
+                },
+                {
+                    "source": "appendText(\"Date notes are already configured. This may overwrite your current settings.\")",
+                    "target": "appendText(\"日期笔记已配置。这可能会覆盖当前设置。\")"
+                },
+                {
+                    "source": "setName(\"Daily notes\")",
+                    "target": "setName(\"每日笔记\")"
+                },
+                {
+                    "source": "setDesc(\"Link daily notes sequentially and to their parent period notes\")",
+                    "target": "setDesc(\"顺序链接每日笔记及其父期笔记\")"
+                },
+                {
+                    "source": "setName(\"Period notes\")",
+                    "target": "setName(\"周期笔记\")"
+                },
+                {
+                    "source": "setName(\"Field names\")",
+                    "target": "setName(\"字段名称\")"
+                },
+                {
+                    "source": "setName(\"Period-specific fields\")",
+                    "target": "setName(\"期间特定字段\")"
+                },
+                {
+                    "source": "setDesc(\"Use next_week/prev_week, next_month/prev_month, etc. instead of generic next/prev. Fields are created automatically.\")",
+                    "target": "setDesc(\"使用 next_week/prev_week、next_month/prev_month 等代替通用next/prev。字段自动创建。\")"
+                },
+                {
+                    "source": "setName(\"Week starts on\")",
+                    "target": "setName(\"周起始于\")"
+                },
+                {
+                    "source": "setDesc(\"Monday uses ISO week numbering. Sunday shifts Sundays into the following week so they match US-style week files.\")",
+                    "target": "setDesc(\"星期一使用ISO周编号。星期日将星期日移入下周以匹配美国式周文件。\")"
+                },
+                {
+                    "source": "setButtonText(\"Set up\")",
+                    "target": "setButtonText(\"设置\")"
+                },
+                {
+                    "source": "Notice(\"Date notes configured\")",
+                    "target": "Notice(\"日期备注已配置\")"
+                },
+                {
+                    "source": "appendText(\" matching the note filename. Default: \")",
+                    "target": "appendText(\" 匹配备注文件名。默认： \")"
+                },
+                {
+                    "source": "Notice(\"Date format cannot be empty\")",
+                    "target": "Notice(\"日期格式不能为空\")"
+                },
+                {
+                    "source": "setName(\"Quick setup\")",
+                    "target": "setName(\"快速设置\")"
+                },
+                {
+                    "source": "setDesc(\"Enable date notes with period hierarchy and transitive rules\")",
+                    "target": "setDesc(\"启用周期层级与传递规则的日期笔记\")"
+                },
+                {
+                    "source": "setButtonText(\"Set up...\")",
+                    "target": "setButtonText(\"设置...\")"
+                },
+                {
+                    "source": "appendText(\" to use\")",
+                    "target": "appendText(\" 使用\")"
+                },
+                {
+                    "source": "setDesc(\"Monday uses ISO week numbering. Sunday shifts Sundays into the following week to match US-style week files.\")",
+                    "target": "setDesc(\"周一使用ISO周编号。周日将周日移到下周以匹配美式周文件。\")"
+                },
+                {
+                    "source": "Notice(\"Delimiter cannot be empty\")",
+                    "target": "Notice(\"分隔符不能为空\")"
+                },
+                {
+                    "source": "Notice(\"Please restart Obsidian for the changes to take effect\")",
+                    "target": "Notice(\"请重启Obsidian以使更改生效\")"
+                },
+                {
+                    "source": "Notice(\"Trigger string cannot be empty\")",
+                    "target": "Notice(\"触发字符串不能为空\")"
+                },
+                {
+                    "source": "Notice(\"Depth must be a number\")",
+                    "target": "Notice(\"深度必须为数字\")"
+                },
+                {
+                    "source": "Notice(\"Depth must be a non-negative number\")",
+                    "target": "Notice(\"深度必须为非负数字\")"
+                },
+                {
+                    "source": "setTitle(`Order: ${n===1?\"asc\":\"desc\"}`)",
+                    "target": "setTitle(`排序: ${n===1?\"asc\":\"desc\"}`)"
+                },
+                {
+                    "source": "setTitle(\"Field: \"+n).setChecked(t.field===n).onClick(()=>{t.field=n,e(t)}))}),o};var WZ=ce('<button aria-label=\"Change sort field/order\"><!></button>');function qu(e,t){Oe(t,!0);let r=be(t,\"edge_sort_id\",15),o=be(t,\"exclude_fields\",19,()=>[]),n=be(t,\"cls\",3,\"\")",
+                    "target": "setTitle(\"Field: \"+n).setChecked(t.field===n).onClick(()=>{t.field=n,e(t)}))}),o};var WZ=ce('<button aria-label=\"Change sort field/order\"><!></button>');function qu(e,t){Oe(t,!0);let r=be(t,\"edge_sort_id\",15),o=be(t,\"exclude_fields\",19,()=>[]),n=be(t,\"cls\",3,\"\")"
+                },
+                {
+                    "source": "setName(\"Enable previous/next view\")",
+                    "target": "setName(\"启用上一个/下一个视图\")"
+                },
+                {
+                    "source": "setDesc(\"Show the previous/next view at the top of the page\")",
+                    "target": "setDesc(\"在页面顶部显示上一个/下一个视图\")"
+                },
+                {
+                    "source": "setName(\"Period rows\")",
+                    "target": "setName(\"周期行\")"
+                },
+                {
+                    "source": "error(\"BreadcrumbsSettingTab.unmount threw >\",n)}),t.empty(),t.addClass(\"BC-settings-tab\")",
+                    "target": "error(\"BreadcrumbsSettingTab.unmount threw >\",n)}),t.empty(),t.addClass(\"BC-settings-tab\")"
+                },
+                {
+                    "source": "error(\"BreadcrumbsSettingTab.display threw >\",n),new eo.Notice(\"Breadcrumbs: failed to render settings tab. See developer console and report at https://github.com/michaelpporter/breadcrumbs/issues\")",
+                    "target": "error(\"BreadcrumbsSettingTab.display 抛出了 >\",n),new eo.Notice(\"Breadcrumbs：无法渲染设置选项卡。请查看开发者控制台并在 https://github.com/michaelpporter/breadcrumbs/issues 报告\")"
+                },
+                {
+                    "source": "setName(\"Breadcrumbs settings failed to load\")",
+                    "target": "setName(\"Breadcrumbs 设置加载失败\")"
+                },
+                {
+                    "source": "setName(\"Implied relations\")",
+                    "target": "setName(\"隐含关系\")"
+                },
+                {
+                    "source": "setName(\"Edge sources\")",
+                    "target": "setName(\"边缘源\")"
+                },
+                {
+                    "source": "error(\"BreadcrumbsSettingTab.unmount threw >\",r)})}};var w_=require(\"obsidian\")",
+                    "target": "error(\"BreadcrumbsSettingTab.unmount threw >\",r)})}};var w_=require(\"obsidian\")"
+                },
+                {
+                    "source": "error(\"Error updating codeblock tree\",$e),v(u)?.free(),ke(u,void 0),$e instanceof ls?ke(p,$e.message,!0):ke(p,\"An error occurred while updating the codeblock tree. Check the console for more information (Ctrl + Shift + I).\")",
+                    "target": "error(\"更新代码块树时出错\",$e),v(u)?.free(),ke(u,void 0),$e instanceof ls?ke(p,$e.message,!0):ke(p,\"更新代码块树时发生错误。请查看控制台获取详情（Ctrl+Shift+I）。\")"
+                },
+                {
+                    "source": "error(\"Error generating mermaid graph\",We),ke(a,\"\")",
+                    "target": "error(\"生成 mermaid 图表时出错\",We),ke(a,\"\")"
+                },
+                {
+                    "source": "error(\"Error updating codeblock tree\",Ie),v(l)?.free(),ke(l,void 0),Ie instanceof ls?ke(u,Ie.message,!0):ke(u,\"An error occurred while updating the codeblock tree. Check the console for more information (Ctrl + Shift + I).\")",
+                    "target": "error(\"更新代码块树时出错\",Ie),v(l)?.free(),ke(l,void 0),Ie instanceof ls?ke(u,Ie.message,!0):ke(u,\"更新代码块树时发生错误。请查看控制台获取详情（Ctrl+Shift+I）。\")"
+                },
+                {
+                    "source": "error(\"CodeblockMDRC.update error >\",t)}}onload(){let t=new Mo;me.debug(\"CodeblockMDRC.load\")",
+                    "target": "error(\"CodeblockMDRC.update error >\",t)}}onload(){let t=new Mo;me.debug(\"CodeblockMDRC.load\")"
+                },
+                {
+                    "source": "error(\"CodeblockMDRC unknown type\",i.type),me.debug(r.elapsedMessage(\"component creation\",!0)),me.debug(t.elapsedMessage(\"CodeblockMDRC.onload\")",
+                    "target": "error(\"CodeblockMDRC unknown type\",i.type),me.debug(r.elapsedMessage(\"component creation\",!0)),me.debug(t.elapsedMessage(\"CodeblockMDRC.onload\")"
+                },
+                {
+                    "source": "Notice(\"Freezing implied edges in the selected folder.\")",
+                    "target": "Notice(\"冻结所选文件夹中的隐含边。\")"
+                },
+                {
+                    "source": "Notice(\"Finished freezing implied edges in folder.\")",
+                    "target": "Notice(\"已冻结文件夹中的隐含边。\")"
+                },
+                {
+                    "source": "setButtonText(\"Build & copy to clipboard\")",
+                    "target": "setButtonText(\"构建并复制到剪贴板\")"
+                },
+                {
+                    "source": "Notice(\"List index copied to clipboard\")",
+                    "target": "Notice(\"列表索引已复制到剪贴板\")"
+                },
+                {
+                    "source": "Notice(\"No list items to copy\")",
+                    "target": "Notice(\"无列表项可复制\")"
+                },
+                {
+                    "source": "Notice(`No matches found with attributes: ${t.fields.join(\", \")}`)",
+                    "target": "Notice(`未找到匹配的属性: ${t.fields.join(\", \")}`)"
+                },
+                {
+                    "source": "Notice(\"No active Markdown view\")",
+                    "target": "Notice(\"无活跃 Markdown 视图\")"
+                },
+                {
+                    "source": "Notice(\"No active file\")",
+                    "target": "Notice(\"无活跃文件\")"
+                },
+                {
+                    "source": "error(\"thread > create file error\",m);return}let l=new ri;new rA(new St(n.path,s.path,t,\"typed-link\")",
+                    "target": "error(\"thread > create file error\",m);return}let l=new ri;new rA(new St(n.path,s.path,t,\"typed-link\")"
+                },
+                {
+                    "source": "Notice(\"Graph stats printed to console and copied to clipboard\")",
+                    "target": "Notice(\"图统计已输出到控制台并复制到剪贴板\")"
+                },
+                {
+                    "source": "Notice(\"Implied edges frozen to note\")",
+                    "target": "Notice(\"隐含边已冻结到笔记\")"
+                },
+                {
+                    "source": "Notice(\"Command cancelled\")",
+                    "target": "Notice(\"命令已取消\")"
+                },
+                {
+                    "source": "Notice(\"Freezing implied edges to all notes in vault...\")",
+                    "target": "Notice(\"正在冻结所有笔记的隐含边...\")"
+                },
+                {
+                    "source": "Notice(`Page views sticky: ${e.settings.views.page.all.sticky?\"on\":\"off\"}`)",
+                    "target": "Notice(`页面视图粘滞: ${e.settings.views.page.all.sticky?\"on\":\"off\"}`)"
+                },
+                {
+                    "source": "error(\"metadataTypeManager.setType error >\",t)}if(await mA.await_if_enabled(this),this.app.metadataCache.initialized)me.debug(\"metadataCache:initialized\")",
+                    "target": "error(\"metadataTypeManager.setType error >\",t)}if(await mA.await_if_enabled(this),this.app.metadataCache.initialized)me.debug(\"metadataCache:initialized\")"
+                },
+                {
+                    "source": "setTitle(\"Freeze implied edges in folder\")",
+                    "target": "setTitle(\"冻结文件夹中的隐含边\")"
+                },
+                {
+                    "source": "Notice(\"Rebuilding graph\")",
+                    "target": "Notice(\"正在重建图形\")"
+                },
+                {
+                    "source": "description:\"Render math in display mode, which puts the math in display style (so \\\\int and \\\\sum are large, for example), and centers the math on the page on its own line.\"",
+                    "target": "description:\"以显示模式渲染数学，将数学置于显示样式（例如\\int和\\sum会变大），并使数学独立成行居中显示。\""
+                },
+                {
+                    "source": "description:\"Determines the markup language of the output.\"",
+                    "target": "description:\"确定输出的标记语言。\""
+                },
+                {
+                    "source": "description:\"Render display math in leqno style (left-justified tags).\"",
+                    "target": "description:\"将显示数学左对齐。\""
+                },
+                {
+                    "source": "description:\"Render display math flush left.\"",
+                    "target": "description:\"将显示数学左对齐。\""
+                },
+                {
+                    "source": "description:\"Specifies a minimum thickness, in ems, for fraction lines, `\\\\sqrt` top lines, `{array}` vertical lines, `\\\\hline`, `\\\\hdashline`, `\\\\underline`, `\\\\overline`, and the borders of `\\\\fbox`, `\\\\boxed`, and `\\\\fcolorbox`.\"",
+                    "target": "description:\"指定分数线、\\sqrt顶部线、{array}竖线、\\hline、\\hdashline、\\underline、\\overline以及\\fbox、\\boxed和\\fcolorbox边框的最小厚度（单位：ems）。\""
+                },
+                {
+                    "source": "description:\"Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.\"",
+                    "target": "description:\"打开严格/LaTeX忠实模式，当输入使用了LaTeX不支持的特性时会抛出错误。\""
+                },
+                {
+                    "source": "description:\"Trust the input, enabling all HTML features such as \\\\url.\"",
+                    "target": "description:\"信任输入，启用所有HTML特性，例如\\url。\""
+                },
+                {
+                    "source": "description:\"If non-zero, all user-specified sizes, e.g. in \\\\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large\"",
+                    "target": "description:\"如果非零，所有用户指定的大小（例如在\\rule{500em}{500em}中）将被限制为maxSize ems。否则，元素和空间可以任意大\""
+                },
+                {
+                    "source": "description:\"Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.\"",
+                    "target": "description:\"限制宏展开次数到指定值，防止无限宏循环等。若设为Infinity，将尝试完全展开（类似LaTeX）。\""
+                },
+                {
+                    "source": "text:\" \"",
+                    "target": "text:\" \""
+                },
+                {
+                    "source": "name=\"Svelte error\"",
+                    "target": "name=\"Svelte错误\""
+                },
+                {
+                    "source": "name:`${z4(v(o)[W])} (copy)`",
+                    "target": "name:`${z4(v(o)[W])} (副本)`"
+                },
+                {
+                    "source": "text:\"Warning: \"",
+                    "target": "text:\"警告: \""
+                },
+                {
+                    "source": "text:\"Set up Date Notes\"",
+                    "target": "text:\"设置日期备注\""
+                },
+                {
+                    "source": "text:\"Configure date note edge sources and transitive hierarchy rules.\"",
+                    "target": "text:\"配置日期备注边源与传递层级规则\""
+                },
+                {
+                    "source": "text:\"Luxon format\"",
+                    "target": "text:\"Luxon格式\""
+                },
+                {
+                    "source": "name:\"Date format\"",
+                    "target": "name:\"日期格式\""
+                },
+                {
+                    "source": "name:\"Next field\"",
+                    "target": "name:\"下一字段\""
+                },
+                {
+                    "source": "name:\"Up field\"",
+                    "target": "name:\"上移字段\""
+                },
+                {
+                    "source": "name:\"Default field\"",
+                    "target": "name:\"默认字段\""
+                },
+                {
+                    "source": "text:\"Luxon date format\"",
+                    "target": "text:\"Luxon日期格式\""
+                },
+                {
+                    "source": "name:\"Stretch to existing\"",
+                    "target": "name:\"拉伸至现有\""
+                },
+                {
+                    "source": "name:\"Debug level\"",
+                    "target": "name:\"调试级别\""
+                },
+                {
+                    "source": "name:\"Default sibling field\"",
+                    "target": "name:\"默认同级字段\""
+                },
+                {
+                    "source": "name:\"Display trimmed\"",
+                    "target": "name:\"显示修剪\""
+                },
+                {
+                    "source": "name:\"Trigger string\"",
+                    "target": "name:\"触发字符串\""
+                },
+                {
+                    "source": "name:\"Included field groups\"",
+                    "target": "name:\"包含字段组\""
+                },
+                {
+                    "source": "description:\"Field groups to include when freezing edges.\"",
+                    "target": "description:\"冻结边缘时包含的字段组。\""
+                },
+                {
+                    "source": "name:\"Use alias\"",
+                    "target": "name:\"使用别名\""
+                },
+                {
+                    "source": "name:\"Enable trail view\"",
+                    "target": "name:\"启用轨迹\""
+                },
+                {
+                    "source": "name:\"Path selection\"",
+                    "target": "name:\"路径选择\""
+                },
+                {
+                    "source": "name:\"Default depth\"",
+                    "target": "name:\"默认深度\""
+                },
+                {
+                    "source": "name:\"Merge fields\"",
+                    "target": "name:\"合并字段\""
+                },
+                {
+                    "source": "name:\"Show controls\"",
+                    "target": "name:\"显示控件\""
+                },
+                {
+                    "source": "name:\"No path message\"",
+                    "target": "name:\"无路径消息\""
+                },
+                {
+                    "source": "name:\"Edge Sort\"",
+                    "target": "name:\"边排序\""
+                },
+                {
+                    "source": "description:\"Select the sorting method for the edges in the graph.\"",
+                    "target": "description:\"选择边排序方法\""
+                },
+                {
+                    "source": "name:\"Show Attributes\"",
+                    "target": "name:\"显示属性\""
+                },
+                {
+                    "source": "description:\"Select the edge attributes to show.\"",
+                    "target": "选择要显示的边属性"
+                },
+                {
+                    "source": "name:\"Link kind\"",
+                    "target": "连接类型"
+                },
+                {
+                    "source": "name:\"Default neighbour field\"",
+                    "target": "默认邻域字段"
+                },
+                {
+                    "source": "name:\"Custom Field Order\"",
+                    "target": "自定义字段顺序"
+                },
+                {
+                    "source": "description:\"Use defined edge fields, then reorder with arrows or drag-and-drop.\"",
+                    "target": "使用定义的边字段，然后通过箭头或拖拽重新排序"
+                },
+                {
+                    "source": "name:\"Custom field sorting\"",
+                    "target": "自定义字段排序"
+                },
+                {
+                    "source": "name:\"Lock view\"",
+                    "target": "锁定视图"
+                },
+                {
+                    "source": "name:\"Lock path\"",
+                    "target": "锁定路径"
+                },
+                {
+                    "source": "name:\"Field groups for left\"",
+                    "target": "左侧字段组"
+                },
+                {
+                    "source": "description:\"Select the field groups to show in the left side of this view\"",
+                    "target": "选择此视图左侧要显示的字段组"
+                },
+                {
+                    "source": "name:\"Field groups for right\"",
+                    "target": "name:\"右侧字段组\""
+                },
+                {
+                    "source": "description:\"Select the field groups to show in the right side of this view\"",
+                    "target": "description:\"选择此视图右侧显示的字段组\""
+                },
+                {
+                    "source": "name:\"Notify on refresh\"",
+                    "target": "name:\"刷新时通知\""
+                },
+                {
+                    "source": "name:\"Target path template\"",
+                    "target": "name:\"目标路径模板\""
+                },
+                {
+                    "source": "name:\"Find root\"",
+                    "target": "name:\"查找根节点\""
+                },
+                {
+                    "source": "name:\"Find root field groups\"",
+                    "target": "name:\"查找根字段组\""
+                },
+                {
+                    "source": "description:\"Which edge-type groups to follow when walking up to the root. Typically 'ups'.\"",
+                    "target": "description:\"向上遍历到根时遵循的边类型组。通常为'ups'。\""
+                },
+                {
+                    "source": "name:\"Field groups\"",
+                    "target": "name:\"字段组\""
+                },
+                {
+                    "source": "name:\"Edge fields\"",
+                    "target": "name:\"边字段\""
+                },
+                {
+                    "source": "name:\"Tag notes\"",
+                    "target": "name:\"标签备注\""
+                },
+                {
+                    "source": "name:\"List notes\"",
+                    "target": "name:\"列出笔记\""
+                },
+                {
+                    "source": "name:\"Date notes\"",
+                    "target": "name:\"日期笔记\""
+                },
+                {
+                    "source": "name:\"Regex notes\"",
+                    "target": "name:\"正则笔记\""
+                },
+                {
+                    "source": "name:\"Dendron notes\"",
+                    "target": "name:\"Dendron笔记\""
+                },
+                {
+                    "source": "name:\"Johnny.Decimal notes\"",
+                    "target": "name:\"Johnny.Decimal笔记\""
+                },
+                {
+                    "source": "name:\"Traverse notes\"",
+                    "target": "name:\"遍历笔记\""
+                },
+                {
+                    "source": "name:\"Rebuild graph\"",
+                    "target": "name:\"重建图谱\""
+                },
+                {
+                    "source": "name:\"List index\"",
+                    "target": "name:\"列出索引\""
+                },
+                {
+                    "source": "name:\"Freeze implied edges\"",
+                    "target": "name:\"冻结隐含边\""
+                },
+                {
+                    "source": "name:\"Edge field suggestor\"",
+                    "target": "name:\"边字段建议器\""
+                },
+                {
+                    "source": "text:\"Reload settings\"",
+                    "target": "text:\"重载设置\""
+                },
+                {
+                    "source": "text:\"> Edge Fields\"",
+                    "target": "text:\"> 边字段\""
+                },
+                {
+                    "source": "text:\"> Transitive\"",
+                    "target": "text:\"> 传递\""
+                },
+                {
+                    "source": "text:\"> Tag Notes\"",
+                    "target": "text:\"> 标签备注\""
+                },
+                {
+                    "source": "text:\"> List Notes\"",
+                    "target": "text:\"> 列表备注\""
+                },
+                {
+                    "source": "text:\"> Date Notes\"",
+                    "target": "text:\"> 日期备注\""
+                },
+                {
+                    "source": "text:\"> Regex Notes\"",
+                    "target": "text:\"> 正则备注\""
+                },
+                {
+                    "source": "text:\"> Dendron Notes\"",
+                    "target": "text:\"> Dendron备注\""
+                },
+                {
+                    "source": "text:\"> Johnny.Decimal Notes\"",
+                    "target": "text:\"> Johnny.Decimal备注\""
+                },
+                {
+                    "source": "text:\"> Traverse Notes\"",
+                    "target": "text:\"> 遍历备注\""
+                },
+                {
+                    "source": "text:\"> Matrix\"",
+                    "target": "text:\"> 矩阵\""
+                },
+                {
+                    "source": "text:\"> Page\"",
+                    "target": "text:\"> 页面\""
+                },
+                {
+                    "source": "text:\"> Tree\"",
+                    "target": "text:\"> 树\""
+                },
+                {
+                    "source": "text:\"> Codeblocks\"",
+                    "target": "text:\"> 代码块\""
+                },
+                {
+                    "source": "text:\"> Rebuild Graph\"",
+                    "target": "text:\"> 重建图\""
+                },
+                {
+                    "source": "text:\"> List Index\"",
+                    "target": "text:\"> 列表索引\""
+                },
+                {
+                    "source": "text:\"> Freeze Implied Edges\"",
+                    "target": "text:\"> 冻结隐含边\""
+                },
+                {
+                    "source": "text:\"> Thread\"",
+                    "target": "text:\"> 线程\""
+                },
+                {
+                    "source": "text:\"> Edge Field Suggestor\"",
+                    "target": "text:\"> 边域建议器\""
+                },
+                {
+                    "source": "text:\"> Debug\"",
+                    "target": "text:\"> 调试\""
+                },
+                {
+                    "source": "text:\"input:is(:not([type!='']), [type=text])\"",
+                    "target": "text:\"input:is(:not([type!='']), [type=text])\""
+                },
+                {
+                    "source": "text:\"Create list index\"",
+                    "target": "text:\"创建列表索引\""
+                },
+                {
+                    "source": "name:\"Link Kind\"",
+                    "target": "name:\"链接类型\""
+                },
+                {
+                    "source": "name:`Open ${t} view`",
+                    "target": "name:\\`打开 ${t} 视图\\`"
+                },
+                {
+                    "source": "name:\"Create list index\"",
+                    "target": "name:\"创建列表索引\""
+                },
+                {
+                    "source": "name:\"Show/copy graph stats\"",
+                    "target": "name:\"显示/复制图统计\""
+                },
+                {
+                    "source": "name:\"Freeze implied edges to note\"",
+                    "target": "name:\"冻结隐含边至笔记\""
+                },
+                {
+                    "source": "name:\"Freeze implied edges to all notes in vault\"",
+                    "target": "name:\"冻结全部笔记隐含边\""
+                },
+                {
+                    "source": "name:`Jump to first neighbour by group:${t.label}`",
+                    "target": "name:\\`按组${t.label}跳至首个邻居\\`"
+                },
+                {
+                    "source": "name:`Thread by field:${t}`",
+                    "target": "name:\\`按字段${t}串联\\`"
+                },
+                {
+                    "source": "name:\"Toggle sticky page views\"",
+                    "target": "name:\"切换固定页面视图\""
+                }
+            ]
+        }
+    }
+}
