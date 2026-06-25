@@ -2,7 +2,7 @@
     "schemaVersion": 1,
     "metadata": {
         "plugin": "url-into-selection",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "title": "Paste URL into selection",
         "description": "Paste URL into selection Localization & Tweaks",
         "language": "zh-cn",
@@ -106,55 +106,55 @@
             "regex": [
                 {
                     "source": "error(\"empty clipboardData in ClipboardEvent\")",
-                    "target": "error(\"empty clipboardData in ClipboardEvent\")"
+                    "target": "error(\"剪贴板数据在ClipboardEvent中为空\")"
                 },
                 {
                     "source": "setName(\"Fallback Regular expression\")",
-                    "target": "setName(\"Fallback Regular expression\")"
+                    "target": "setName(\"备用正则表达式\")"
                 },
                 {
                     "source": "setDesc(\"Regular expression used to match URLs when default match fails.\")",
-                    "target": "setDesc(\"Regular expression used to match URLs when default match fails.\")"
+                    "target": "setDesc(\"默认匹配失败时用于匹配URL的正则表达式\")"
                 },
                 {
                     "source": "setPlaceholder(\"Enter regular expression here..\")",
-                    "target": "setPlaceholder(\"Enter regular expression here..\")"
+                    "target": "setPlaceholder(\"在此输入正则表达式...\")"
                 },
                 {
                     "source": "setName(\"Behavior on pasting URL when nothing is selected\")",
-                    "target": "setName(\"Behavior on pasting URL when nothing is selected\")"
+                    "target": "setName(\"未选择内容时粘贴URL的行为\")"
                 },
                 {
                     "source": "setDesc(\"Auto Select: Automatically select word surrounding the cursor.\")",
-                    "target": "setDesc(\"Auto Select: Automatically select word surrounding the cursor.\")"
+                    "target": "setDesc(\"自动选择：自动选择光标周围的单词\")"
                 },
                 {
                     "source": "setName(\"Whitelist for image embed syntax\")",
-                    "target": "setName(\"Whitelist for image embed syntax\")"
+                    "target": "setName(\"图片嵌入语法的白名单\")"
                 },
                 {
                     "source": "appendText(\"![selection](url) will be used for URL that matches the following list.\")",
-                    "target": "appendText(\"![selection](url) will be used for URL that matches the following list.\")"
+                    "target": "appendText(\"对于匹配以下列表的URL，将使用![selection](url)格式\")"
                 },
                 {
                     "source": "appendText(\"Rules are regex-based, split by line break.\")",
-                    "target": "appendText(\"Rules are regex-based, split by line break.\")"
+                    "target": "appendText(\"规则基于正则表达式，以换行符分隔\")"
                 },
                 {
                     "source": "setPlaceholder(`Example:\nyoutu.?be|vimeo`)",
-                    "target": "setPlaceholder(`Example:\nyoutu.?be|vimeo`)"
+                    "target": "setPlaceholder(`示例:\nyoutu.?be|vimeo`)"
                 },
                 {
                     "source": "log(\"loading url-into-selection\")",
-                    "target": "log(\"loading url-into-selection\")"
+                    "target": "log(\"加载 url-into-selection\")"
                 },
                 {
                     "source": "log(\"unloading url-into-selection\")",
-                    "target": "log(\"unloading url-into-selection\")"
+                    "target": "log(\"卸载 url-into-selection\")"
                 },
                 {
                     "source": "text:\"URL-into-selection Settings\"",
-                    "target": "text:\"URL-into-selection Settings\""
+                    "target": "text:\"URL-into-selection 设置\""
                 }
             ]
         }
